@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
-// base '/longpf/' so the site works on GitHub Pages at tridinhbui.github.io/longpf
+// Relative base so the build works at the domain root (Vercel)
+// and under a sub-path (GitHub Pages: /longpf/).
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/longpf/' : '/',
+  base: './',
 });
