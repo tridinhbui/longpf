@@ -1,6 +1,6 @@
 # longpf
 
-Finance portfolio website for **Phuoc Bao Long Tran** — MBA & MS Finance candidate, Suffolk University.
+Finance portfolio website for **Phuoc Bao Long Tran**, MBA & MS Finance candidate, Suffolk University.
 
 Built with [Vite](https://vite.dev) (vanilla JS). All resume content lives in `src/data.js`.
 
